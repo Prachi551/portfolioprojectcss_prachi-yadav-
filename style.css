@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    background-color: rgb(44, 47, 232);
+    color: white;
+    padding: 5px;}     
+nav{
+    text-align: center; 
+    background-color: rgb(44, 47, 232);
+    padding: 10px;} 
+nav a{
+           
+    color: white;
+}
+main{
+    text-align: center;
+   
+}
+div{
+    margin: 50px;
+    padding: 30px;
+    border: 2px solid black;
+    background-color: rgb(235, 235, 235);
+    
+}
+table{
+    margin: 20px auto;
+    border:2px solid blue;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+}
+th{
+    background-color: rgb(44, 47, 232);
+    color: white;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+ 
+}
+td{
+    text-align: center;
+    border:2px solid blue;
+   
+    padding: 20px;
+    
+}
+form{
+    text-align: center;
+    margin: 50px;   
+    padding: 30px;
+    border: 2px solid black;
+    background-color: rgb(235, 235, 235);
+    
+}
+input[type="text"], input[type="email"]{
+    width: 300px;
+    height: 40px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+}   
+textarea, input{
+    margin: 10px;
+    padding: 5px;
+}
+
+button {
+  background-color: rgb(44, 47, 232);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(30, 35, 180);
+}
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: rgb(44, 47, 232);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+
+  
+}
+#backToTop:hover {
+  background-color: rgb(30, 35, 180);
+}
